@@ -10,7 +10,7 @@ Before running LDSC, munge your GWAS summary statistics using munge_sumstats.py.
   --a2 OTHER_ALLELE \
   --p P \
   --N-col N \
-  --merge-alleles "/mnt/d/bioinformatics_research/LDSC/w_hm3.snplist.txt" \
+  --merge-alleles "/w_hm3.snplist.txt" \
   --out "/smoking_initiation_munged"
 ```
   This generates a munged output file (e.g., smoking_initiation_munged.sumstats.gz) for downstream analysis.
