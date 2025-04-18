@@ -23,8 +23,9 @@ After munging, use ldsc.py to estimate genetic correlations between traits. The 
   --ref-ld-chr /eur_w_ld_chr/ \
   --w-ld-chr /eur_w_ld_chr/ \
   --out /rh_volume_Cerebellum-White-Matter/results
-  This command outputs results (e.g., genetic correlation estimates) to the specified directory (/rh_volume_Cerebellum-White-Matter/results).
 ```
+  This command outputs results (e.g., genetic correlation estimates) to the specified directory (/rh_volume_Cerebellum-White-Matter/results).]
+  
   Notes
 File Paths: Update paths (e.g., /GSCAN_SmkInit_2022_GWAS_SUMMARY_STATS_EUR_without_UKB.txt, /eur_w_ld_chr/) to match your directory structure.
 Input Files: Ensure required files (e.g., w_hm3.snplist.txt, LD score files) are available.
