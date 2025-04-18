@@ -1,1 +1,1 @@
-# LDSC-MIXER
+This repository provides scripts for LDSC (Linkage Disequilibrium Score Regression) and MiXeR analysis to estimate heritability and genetic correlations from GWAS summary statistics. It includes files from the LDSC (MIT License) and MiXeR (MIT License) repositories, used with permission as per their licenses. Requirements: Ubuntu 18.04 and Python 3.6.8 for compatibility, along with dependencies listed in the README.
