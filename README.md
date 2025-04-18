@@ -1,6 +1,7 @@
 This repository provides scripts for LDSC (Linkage Disequilibrium Score Regression) and MiXeR analysis to estimate heritability and genetic correlations from GWAS summary statistics. It includes files from the LDSC (MIT License) and MiXeR (MIT License) repositories, used with permission as per their licenses. Requirements: Ubuntu 18.04 and Python 3.6.8 for compatibility, along with dependencies listed in the README.
 Munging GWAS Files
 Before running LDSC, munge your GWAS summary statistics using munge_sumstats.py. Below is an example command to preprocess a GWAS file (e.g., smoking initiation data):
+```bash
 ./munge_sumstats.py \
   --sumstats "/GSCAN_SmkInit_2022_GWAS_SUMMARY_STATS_EUR_without_UKB.txt" \
   --signed-sumstats BETA,0 \
@@ -10,7 +11,7 @@ Before running LDSC, munge your GWAS summary statistics using munge_sumstats.py.
   --p P \
   --N-col N \
   --merge-alleles "/mnt/d/bioinformatics_research/LDSC/w_hm3.snplist.txt" \
-  --out "/smoking_initiation_munged"
+  --out "/smoking_initiation_munged" 
   This generates a munged output file (e.g., smoking_initiation_munged.sumstats.gz) for downstream analysis.
 
   Step 2: Running Genetic Correlation Analysis
