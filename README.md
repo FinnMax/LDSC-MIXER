@@ -30,3 +30,22 @@ After munging, use ldsc.py to estimate genetic correlations between traits. The 
 File Paths: Update paths (e.g., /GSCAN_SmkInit_2022_GWAS_SUMMARY_STATS_EUR_without_UKB.txt, /eur_w_ld_chr/) to match your directory structure.
 Input Files: Ensure required files (e.g., w_hm3.snplist.txt, LD score files) are available.
 Documentation: Refer to the LDSC documentation for additional options and troubleshooting.
+
+MiXeR Analysis
+MiXeR estimates polygenicity and genetic overlap between traits using GWAS summary statistics. The munged files from LDSC (e.g., smoking_initiation_munged.sumstats.gz) can be used directly, but you must download the 1000 Genomes LD reference panel.
+
+Setup
+Download the 1000 Genomes LD Reference Panel:
+Obtain the LD reference data from the 1000 Genomes Project or a MiXeR-compatible version (see MiXeR documentation).
+Example: Download phased genotype data (e.g., 1000G.EUR.PHASE3) in PLINK or HDF5 format.
+Place files in a directory (e.g., data/ld_reference/).
+
+Verify Environment:
+Use Ubuntu 18.04 and Python 3.6.8 to avoid compatibility errors.
+
+Running MiXeR
+[Placeholder: Add your MiXeR analysis command here, e.g., mixer.py fit1 ...]
+
+Use the LDSC-munged file as input (e.g., smoking_initiation_munged.sumstats.gz).
+Specify the path to the 1000 Genomes LD reference panel.
+
